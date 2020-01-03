@@ -1,0 +1,10 @@
+ctrl_interface=/var/run/wpa_supplicant
+ctrl_interface_group=0
+update_config=1
+
+network={
+	ssid="NETIASPOT-AF69B0"
+	#psk="6fk3zofkjyiw"
+	psk=1a9c8e7b95b87f62dedd5ef265449c0385f0f74cc57c4ad0df3535463c1e8af9
+}
+
