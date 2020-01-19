@@ -10,3 +10,9 @@ network={
 	#psk="6fk3zofkjyiw"
 	psk=1a9c8e7b95b87f62dedd5ef265449c0385f0f74cc57c4ad0df3535463c1e8af9
 }
+
+network={
+	ssid="OnePlus6"
+	#psk="cd5ed0cec136"
+	psk=62a3d9287ee3f2684a1568405ff6c25f036fc06890e99853747073d75461f977
+}
