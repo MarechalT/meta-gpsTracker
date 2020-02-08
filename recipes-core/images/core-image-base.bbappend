@@ -5,6 +5,6 @@ IMAGE_INSTALL += "nano \
 		  gpsd gpsd-dev libgps\
 		  ppp \
 		  json-c \
+		  gps-tracker \
+		  mosquitto \
 "
-
-ENABLE_UART = "1"
