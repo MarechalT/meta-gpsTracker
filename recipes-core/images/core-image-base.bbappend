@@ -2,9 +2,9 @@
 IMAGE_FEATURES += "ssh-server-dropbear"
 IMAGE_INSTALL += "nano \
 		  minicom \
-		  gpsd gpsd-dev libgps\
 		  ppp \
 		  json-c \
 		  gps-tracker \
-		  mosquitto \
 "
+#		  gpsd gpsd-dev libgps
+#		  mosquitto 

@@ -11,6 +11,7 @@ DEPENDS += "gpsd \
 RDEPENDS_${PN} += " gpsd \
 		    json-c \
 		    initscripts \
+		    mosquitto \
 "
 
 SRC_URI = "\
@@ -20,8 +21,9 @@ SRCREV = "master"
 
 S = "${WORKDIR}/git"
 
-INITSCRIPT_PARAMS = "default 95"
+INITSCRIPT_PACKAGES = "${PN}"
 INITSCRIPT_NAME = "start_gps-tracker"
+
 #CONFFILES_${PN} += "${sysconfdir}/init.d/gps_start"
 
 do_install() {
