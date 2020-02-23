@@ -5,6 +5,7 @@ IMAGE_INSTALL += "nano \
 		  ppp \
 		  json-c \
 		  gps-tracker \
+		  tcpdump \
 "
 #		  gpsd gpsd-dev libgps
 #		  mosquitto 
