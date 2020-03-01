@@ -33,7 +33,5 @@ do_install() {
 	install -d ${D}${sysconfdir}/init.d
 
 	install -m 0755 gpsManager ${D}${bindir}
-	install -m 0755 gpsTest ${D}${bindir}
-	install -m 0755 mqttTest ${D}${bindir}
 	install -m 0755 ${S}/initscript/start_gps-tracker ${D}${sysconfdir}/init.d/
 }
